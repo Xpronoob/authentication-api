@@ -5,7 +5,7 @@ const router = Router()
 
 // Endpoints
 router.get('/', (req, res) => {
-  res.status(200).json({ message: 'Hello Ecommerce API' })
+  res.status(200).json({ message: 'Hello Authentication API' })
 })
 
 router.use(authRouter)
